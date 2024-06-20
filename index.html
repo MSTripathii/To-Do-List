@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Basic To-Do List | Coder_MST</title>
+</head>
+
+<body>
+
+    <div class="to-do-list">
+
+        <div class="user-task">
+            <form id="submit">
+                <input type="text" placeholder="Write your task Title" id="title">
+                <br>
+                <textarea name="description" id="text-area" placeholder="Write your task Description"></textarea>
+                <br>
+                <input type="radio" value="safe" name="color">
+                <label for="green">Samay Milega to krlenge</label>
+                <br>
+                <input type="radio" value="littlesafe" name="color">
+                <label for="brown">Samay nikal ke krna pde ga</label>
+                <br>
+                <input type="radio" value="notsafe" name="color">
+                <label for="red">Abhi kro sb kuch hatao side</label>
+                <br>
+                <input type="submit">
+
+            </form>
+        </div>
+
+    </div>
+
+    <div class="task-box" id="task-boxx">
+        <div class="task-heading">
+            <h2 id="task-heading"></h2><i class='bx bx-x-circle' id="close"></i>
+        </div>
+        <div class="title-description">
+            <p id="task-description"></p>
+        </div>
+        <div id="priority">
+            <h4 id="priority-text"></h4>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -35,7 +35,7 @@ submit.addEventListener('submit', (e) => {
             const task_priority_text = newDiv.querySelector('#priority-text')
 
             if (ele.value == 'safe') {
-                task_priority.style.backgroundColor = 'green'
+                task_priority.style.backgroundColor = '#38b000'
                 task_priority_text.innerHTML = 'Aaram se Karna'
             }
             else if (ele.value == 'littlesafe') {
@@ -43,7 +43,7 @@ submit.addEventListener('submit', (e) => {
                 task_priority_text.innerHTML = 'Time Nikal ke kro'
             }
             else {
-                task_priority.style.backgroundColor = 'red'
+                task_priority.style.backgroundColor = '#d90429'
                 task_priority_text.innerHTML = 'Abhi kro jldi'
             }
         }
